@@ -3,5 +3,10 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("hello world !")
+	const (
+		a = iota
+		b = "ss"
+		c = iota
+	)
+	fmt.Println("hello world !",a,b,c)
 }
